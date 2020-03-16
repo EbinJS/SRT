@@ -1,0 +1,97 @@
+div{
+    background-color: bisque;
+}
+body{
+        background-color: rgb(253, 212, 162);
+        padding: 15px 15px 15px 15px;
+}
+h1{
+    color:gold;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+h3{
+    color:gold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+img{
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+dl{
+    line-height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+dt{
+    color:rgb(255, 184, 4);
+    font-weight:bolder;
+    line-height: 10px;
+    animation-name: first;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+a{
+    color: gold;
+}
+a:hover{
+    color:rgb(204, 151, 17);
+}
+#main{
+    background-color: rgb(253, 235, 213);
+    padding-left: 5em;
+    padding-right: 10em;
+    text-align: justify;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.block{
+    animation-name: first;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes first{
+    0%{
+        color:gold;
+        animation-timing-function: linear;
+    }
+    50%
+    {
+        color:goldenrod;
+        animation-timing-function: linear;
+    }
+    100%{
+        color:gold;
+        animation-timing-function: linear;
+    }
+}
+footer{
+    width: 110px;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-name: first;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
